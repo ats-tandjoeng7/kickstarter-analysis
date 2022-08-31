@@ -17,7 +17,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 ## About me
 - 👋 Hi, there &smile;. My name is Parto Tandjoeng of [Micron Technology, Inc.](https://www.micron.com/).
 - 🌱 I'm interested in knowing more about data analytics, data visualization, and Machine Learning. I’m currently trying my best to learn some popular tools, including collaborative tools, and best known methods that are widely used for data analytics and visualization.
-- 👯 Although I'm still new to data analytics, data visualization and ML, this is the first step to move out my comfort zone and learn new things everyday from this intensive training and other cohorts. I’m looking forward to collaborating on some class work and assignments with my cohorts, extremely supportive TAs, and knowledgeable tutors.
+- 👯 Although I'm still new to data analytics, data visualization and ML, this is the first step to move out of my comfort zone and learn new things everyday from this intensive training and other cohorts. I’m looking forward to collaborating on some class work and assignments with my cohorts, extremely supportive TAs, and knowledgeable tutors.
 - [[More about my personal reflection]](https://github.com/ats-tandjoeng7/kickstarter-analysis/blob/main/00_prework/Data_Analytics_Reflect_Activity.pdf)
 
 ## Lessons learned
@@ -92,7 +92,7 @@ git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCB-VIRT-DATA-PT-08-20
 
 ## Update a repository
 We use `git pull` or `git push` command on Git Bash/Terminal to update a repository, but it is recommended to make a backup of local repository before doing so.\
-If `git status` command gives something like "On branch main .. Your branch is up to date with 'origin/main'. nothing to commit, working tree clean," it is unnecessary to run `git pull` or `git push` command because there is nothing to pull to our local repo or push to our remote repo.
+If `git status` command gives something like "On branch main .. Your branch is up to date with 'origin/main'. nothing to commit, working tree clean," this usually means it is unnecessary to run `git pull` or `git push` command because there will be nothing to pull to our local repo or push to our remote repo.
 
 ### `git pull`
 ```
@@ -123,7 +123,7 @@ git push origin main
 This project is still ongoing and will be updated on weekly basis.
 
 ## Acknowledgment
-- TAs: Austin Sloane
+- TAs: Austin Sloane, Nick Sneed
 - Tutors: Saad Khan, Nelson Tsai
 
 ## References

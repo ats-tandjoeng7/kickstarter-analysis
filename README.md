@@ -121,11 +121,11 @@ git push origin main
 [//]: # (Or better with -u or --set-upstream flag, like git push -u origin main, though we only need to do this once for that association to be recorded in .git/config.)
 
 ## Module 1 challenge
-All three deliverables in Module 1 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["Written_Report_Template.md."](./01_kickstarter/Written_Report_Template.md)  
+All three deliverables in Module 1 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["README.md."](./01_kickstarter/README.md)  
 main branch  
 |&rarr; ./README.md  
 |&rarr; ./01_kickstarter/  
-  &nbsp; |&rarr; ./01_kickstarter/Written_Report_Template.md    
+  &nbsp; |&rarr; ./01_kickstarter/README.md  
   &nbsp; |&rarr; ./01_kickstarter/Kickstarter_Challenge.zip  
   &nbsp; |&rarr; ./01_kickstarter/resources/  
     &emsp; |&rarr; ./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png  

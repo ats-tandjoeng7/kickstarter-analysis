@@ -10,6 +10,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 [] [Create a repository](#create-a-repository)
 [] [Clone a repository](#clone-a-repository)
 [] [Update a repository](#update-a-repository)
+[] [Module 1 challenge](#module-1-challenge)
 [] [Status](#status)
 [] [Acknowledgment](#acknowledgment)
 [] [References](#references)
@@ -74,24 +75,24 @@ ssh -T git@github.com
 ```
 
 ## Create a repository
-Here are some basic steps to create a repository in our GitHub account.
+Here are some basic steps to create a repository (repo) in our GitHub account.
 - Log on to [GitHub](https://github.com/) account and click the pull down menu next to ➕ at the top-right &rarr; **New repository** &rarr; type in a name under **Repository name** &rarr; type in succint description about the repo/project under **Description** &rarr; select _Public_ &rarr; ☑️ check **Add a README file** &rarr; click **Create repository**.
 
 ## Clone a repository
-Here are some basic steps to clone an existing repository from GitHub/GitLab.
-- Log on to [GitHub](https://github.com/) account and click **Profile** &rarr; **Your repositories** &rarr; click a project/repository you want to clone &rarr; **Code** &rarr; select _SSH_ &rarr; click the copy url next to the repo link &rarr; paste the clipboard containing our repo url after `git clone "repo url"`.
+Here are some basic steps to clone an existing repo from GitHub/GitLab.
+- Log on to [GitHub](https://github.com/) account and click **Profile** &rarr; **Your repositories** &rarr; click a project/repo you want to clone &rarr; **Code** &rarr; select _SSH_ &rarr; click the copy url next to the repo link &rarr; paste the clipboard containing our repo url after `git clone "repo url"`.
 ```
 cd path_we_want_repo_to_reside
 git clone git@github.com:your_username/your_repo_name.git
 ```
-- Log on to [GitLab](https://ucb.bootcampcontent.com/users/sign_in) account and click a project/repository you want to clone &rarr; **Clone** &rarr; **Clone with SSH** &rarr; click **Copy URL** next to the repo link &rarr; paste the clipboard containing our repo url after `git clone "repo url"`.
+- Log on to [GitLab](https://ucb.bootcampcontent.com/users/sign_in) account and click a project/repo you want to clone &rarr; **Clone** &rarr; **Clone with SSH** &rarr; click **Copy URL** next to the repo link &rarr; paste the clipboard containing our repo url after `git clone "repo url"`.
 ```
 cd path_we_want_repo_to_reside
 git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCB-VIRT-DATA-PT-08-2022-U-B.git
 ```
 
 ## Update a repository
-We use `git pull` or `git push` command on Git Bash/Terminal to update a repository, but it is recommended to make a backup of local repository before doing so.\
+We use `git pull` or `git push` command on Git Bash/Terminal to update a repo, but it is recommended to make a backup of local repo before doing so.\
 If `git status` command gives something like "On branch main .. Your branch is up to date with 'origin/main'. nothing to commit, working tree clean," this usually means it is unnecessary to run `git pull` or `git push` command because there will be nothing to pull to our local repo or push to our remote repo.
 
 ### `git pull`
@@ -110,14 +111,25 @@ git branch -M main
 git push -uf origin main
 ```
 
-### `git push` a new/modified file
+### `git push` new or modified file/folder
 ```
 cd existing_repo
 git add .
-git commit -m "commit new file or commit modified file"
+git commit -m "commit files and folders"
 git push origin main
 ```
 [//]: # (Or better with -u or --set-upstream flag, like git push -u origin main, though we only need to do this once for that association to be recorded in .git/config.)
+
+## Module 1 challenge
+All three deliverables in Module 1 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["Written_Report_Template.md."](./01_kickstarter/Written_Report_Template.md)  
+main branch  
+|&rarr; ./README.md  
+|&rarr; ./01_kickstarter/  
+  &nbsp; |&rarr; ./01_kickstarter/Written_Report_Template.md    
+  &nbsp; |&rarr; ./01_kickstarter/Kickstarter_Challenge.zip  
+  &nbsp; |&rarr; ./01_kickstarter/resources/  
+    &emsp; |&rarr; ./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png  
+    &emsp; |&rarr; ./01_kickstarter/resources/Outcomes_vs_Goals.png  
 
 ## Status
 This project is still ongoing and will be updated on weekly basis.
@@ -129,5 +141,6 @@ This project is still ongoing and will be updated on weekly basis.
 ## References
 [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)\
 [Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)\
-[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)\
-[git push origin main vs git push -u origin main](https://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma)
+[git push origin main vs git push -u origin main](https://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma)\
+[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)\
+[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)

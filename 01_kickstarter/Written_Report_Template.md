@@ -35,14 +35,14 @@ By using some useful data analytics/visualization features in MS Excel 2016 and 
 These analyses were performed by applying Excel Pivot Table, Pivot Chart and other Chart types, Sort & Filter, and several built-in Excel functions (e.g. COUNTIFS, YEAR, DATE, DELTA). While I was comfortable working on the two technical analysis deliverables, I was facing a lot of challenges with the setup problems and familiarizing myself with the markdown language that is new to me. But, since I possess some html concepts, I could adjust quickly to the markdown language. Writing a markdown script is actually less stressful than that of writing a traditional html script.
 
 ### Analysis of Outcomes Based on Launch Date
-The analysis results of Outcomes based on Launch Date is shown below.
-![Outcomes Based on Launch Date Chart](./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png)
->> **Fig. 1**
+The analysis results of Outcomes based on Launch Date for the Theater parent category is shown below.
+![Outcomes Based on Launch Date Chart](./resources/Theater_Outcomes_vs_Launch.png)
+**Fig. 1 Theater Outcomes Based on Launch Date**
 
 ### Analysis of Outcomes Based on Goals
-The analysis results of Outcomes based on Goals is shown below.
-![Outcomes Based on Goals Chart](./01_kickstarter/resources/Outcomes_vs_Goals.png)
->> **Fig. 2**
+The analysis results of Outcomes based on Goals for the plays subcategory is shown below.
+![Outcomes Based on Goals Chart](./resources/Outcomes_vs_Goals.png)
+**Fig. 2 Outcomes Based on Goals**
 
 ### Challenges and Difficulties Encountered
 Downloading prerequisite softwares and cloning a git repo from GitLab was smooth because we were only required to `git pull` afterward. Here are three main struggles and how I overcame them.
@@ -52,12 +52,12 @@ Downloading prerequisite softwares and cloning a git repo from GitLab was smooth
 >>💡 trial and error, and never-say-die mindsets.
 2. Locale settings of MS Excel 2016, which automatically displayed months of _Date_ and _Short Date_ formatted cells as 1, 2, .., 12 instead of Jan, Feb, .., Dec. Pivot Table and Pivot Chart were all affected, which prevented me from aligning results with the assignment requirements. It took me a few days to finally figure it out.
 >>💡 Preferred locale (language) can be changed via Power Query in MS Excel 2016.\
->>💡 During the process of getting back on track, I also applied some efficient techniques, such as `Fill > Right`, `Fill < Left`, `Days()`, `Delta()`, etc.
-3. A few misleading descriptions and links in Module 1, for example line breaks in markdown language are not `---` hyphens. Line breaks in markdown should be two consecutive spaces, three consecutive spaces, or \\ (backslash) at the end of a line.
+>>💡 During the process of getting back on track, I also applied some efficient techniques for reconfirming the accuracy of results, such as `Fill > Right`, `Fill < Left`, `DAYS()`, `DELTA()`, etc.
+3. A few misleading descriptions and broken links in Module 1, for example line breaks in markdown language are not `---` hyphens. Line breaks in markdown should be two consecutive spaces, three consecutive spaces, or \\ (backslash) at the end of a line.
 
 ## Results
 - Two conclusions we can draw about the Outcomes based on Launch Date:
-  1. Successful outcomes in Theatre category were pretty flat from January-April, peaked in the month of May, and decreased towards December. December was the only month when the number of Successful outcomes felt to -1.33% below the total number of Failed and Canceled projects combined. The rest of months had at least double-digit number of more successful outcomes compared to Failed and Canceled projects combined.
+  1. Successful outcomes in Theater category were pretty flat from January-April, peaked in the month of May, and decreased towards December. December was the only month when the number of Successful outcomes felt to -1.33% below the total number of Failed and Canceled projects combined. The rest of months had at least double-digit number of more successful outcomes compared to Failed and Canceled projects combined.
   2. May and June were the only periods when Kickstarter campaigns recorded successful outcomes by 30% or higher compared to the rest of months, and December was the least successful time for Theater category.
 
 - Conclusions about the Outcomes based on Goals:

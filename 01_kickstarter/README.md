@@ -14,17 +14,17 @@ This project details what we have done to perform analysis on Kickstarter data t
 Module 1 assignment consists of two technical analysis deliverables and a written report to deliver our results. Our goals are to deliver the following deliverables, commit the results, including two required charts, and the report in a GitHub repository (repo) while helping to uncover trends in the Kickstarter data.
 - ☑️ Deliverable 1: Outcomes Based on Launch Date Chart (Theater_Outcomes_vs_Launch.png)
 - ☑️ Deliverable 2: Outcomes Based on Goals Chart (Outcomes_vs_Goals.png)
-- ☑️ Deliverable 3: A written analysis of the results (see ["README.md"](./README.md))
+- ☑️ Deliverable 3: A written analysis of the results (this ["README.md"](./README.md))
 
 All three deliverables in Module 1 challenge are committed in this GitHub repo called ***kickstarter-analysis*** as outlined below.  
 main branch  
 |&rarr; ./README.md  
 |&rarr; ./01_kickstarter/  
-  &nbsp; |&rarr; ./01_kickstarter/README.md  
-  &nbsp; |&rarr; ./01_kickstarter/Kickstarter_Challenge.zip  
+  &nbsp; |&rarr; [./01_kickstarter/README.md](./README.md)  
+  &nbsp; |&rarr; [./01_kickstarter/Kickstarter_Challenge.zip](./Kickstarter_Challenge.zip)  
   &nbsp; |&rarr; ./01_kickstarter/resources/  
-    &emsp; |&rarr; ./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png  
-    &emsp; |&rarr; ./01_kickstarter/resources/Outcomes_vs_Goals.png  
+    &emsp; |&rarr; [./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png](./resources/Theater_Outcomes_vs_Launch.png)  
+    &emsp; |&rarr; [./01_kickstarter/resources/Outcomes_vs_Goals.png](./resources/Outcomes_vs_Goals.png)  
 
 ### Purpose
 By using some useful data analytics/visualization features in MS Excel 2016 and collaborative GitHub platform, we strived to:
@@ -76,4 +76,4 @@ Downloading prerequisite softwares and cloning a git repo from GitLab was smooth
   | Mean Goal              | $4,101              | $9,827          |
   | Median Goal            | $2,500              | $3,500          |
   | Mode Goal              | $2,000              | $5,000          |
-  | Mean:Median Ratio      | ~ 1.64 (***right skewed***) | ~ 2.81 (***right skewed***)
+  | Mean:Median Ratio      | ~ 1.64 (***right skewed***) | ~ 2.81 (***right skewed***) |

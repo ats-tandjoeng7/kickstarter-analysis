@@ -11,6 +11,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 [] [Clone a repository](#clone-a-repository)
 [] [Update a repository](#update-a-repository)
 [] [Module 1 challenge](#module-1-challenge)
+[] [Module 2 challenge](#module-2-challenge)
 [] [Status](#status)
 [] [Acknowledgment](#acknowledgment)
 [] [References](#references)
@@ -131,6 +132,26 @@ main branch
     &emsp; |&rarr; ./01_kickstarter/resources/Theater_Outcomes_vs_Launch.png  
     &emsp; |&rarr; ./01_kickstarter/resources/Outcomes_vs_Goals.png  
 
+## Module 2 challenge
+All three deliverables in Module 2 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["README.md."](https://github.com/ats-tandjoeng7/stock-analysis/blob/main/README.md)  
+main branch  
+|&rarr; ./README.md  
+|&rarr; ./02_wall-street/  
+  &nbsp; |&rarr; ./02_wall-street/VBA_Challenge.bas  
+  &nbsp; |&rarr; ./02_wall-street/VBA_Challenge.xlsm  
+  &nbsp; |&rarr; ./02_wall-street/resources/  
+    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2017.png  
+    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2018.png  
+
+### MS Excel VBA setup
+Some useful toolbars such as `Debug` and `Edit` toolbars, and setting options available in the Excel VBA Editor may be customized for boosting our productivity in coding VBA (Visual Basic for Applications) programs. Here are a few features that some of us used during Module 2 class work and assignment.
+
+![Customized VBA Editor Toolbars](./00_prework/MSVBAEditor_ViewToolbars.png "Fig. 1 Customized VBA Editor Toolbars")\
+**Fig. 1 Customized VBA Editor Toolbars**
+
+![Customized VBA Tools' Options](./00_prework/MSVBAEditor_ToolsOptions.png "Fig. 2 Customized VBA Tools' Options")\
+**Fig. 2 Customized VBA Tools' Options**
+
 ## Status
 This project is still ongoing and will be updated on weekly basis.
 
@@ -139,8 +160,12 @@ This project is still ongoing and will be updated on weekly basis.
 - Tutors: Saad Khan, Nelson Tsai
 
 ## References
+### GitHub and Markdown
 [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)\
 [Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)\
 [git push origin main vs git push -u origin main](https://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma)\
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)\
 [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+### MS Excel VBA
+[Excel VBA Reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)

@@ -137,11 +137,13 @@ All three deliverables in Module 2 challenge are committed in this GitHub repo a
 main branch  
 |&rarr; ./README.md  
 |&rarr; ./02_wall-street/  
-  &nbsp; |&rarr; ./02_wall-street/VBA_Challenge.bas  
+  &nbsp; |&rarr; ./02_wall-street/VBA_Challenge.vbs  
   &nbsp; |&rarr; ./02_wall-street/VBA_Challenge.xlsm  
   &nbsp; |&rarr; ./02_wall-street/resources/  
     &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2017.png  
     &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2018.png  
+    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2017_BeforeRefactoring.png  
+    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2018_BeforeRefactoring.png  
 
 ### MS Excel VBA setup
 Some useful toolbars such as `Debug` and `Edit` toolbars, and setting options available in the Excel VBA Editor may be customized for boosting our productivity in coding VBA (Visual Basic for Applications) programs. Here are a few features that some of us used during Module 2 class work and assignment.

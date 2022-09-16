@@ -12,7 +12,6 @@ This project details what we have done to perform analysis on Kickstarter data t
 [] [Update a repository](#update-a-repository)
 [] [Module 1 challenge](#module-1-challenge)
 [] [Module 2 challenge](#module-2-challenge)
-[] [Status](#status)
 [] [Acknowledgment](#acknowledgment)
 [] [References](#references)
 
@@ -23,11 +22,11 @@ This project details what we have done to perform analysis on Kickstarter data t
 - [[More about my personal reflection]](https://github.com/ats-tandjoeng7/kickstarter-analysis/blob/main/00_prework/Data_Analytics_Reflect_Activity.pdf)
 
 ## Lessons learned
-This project also summarizes some of the tools that we have used during UCB Data Analytics Boot Camp, shares basic steps to connect our local git/SSH to GitHub/GitLab, clone/update repositories, and help others overcome struggles that some of us have experienced during the process.
+This project also summarizes some of the tools that we have used during UCB Data Analytics Boot Camp, shares basic steps to connect our local git/SSH to GitHub/GitLab, clone/update repositories, and hopefully helps others overcome struggles that some of us have experienced during the process. It listed some best known methods and references, but some may still need a few little tweaks to create a suitable computer enviroment in certain cases.
 
 ## Softwares
 Here is a list of some prerequisite softwares used during UCB Data Analytics Boot Camp. Some cohorts may use additional tools and different settings to make them more effective and efficient.
-- MS Excel 2016 version 2207 or newer
+- MS Excel 2016 version 2206 or newer
 - VS Code version 1.70.2 or newer
 - Anaconda3
 - Git version 2.37.2.windows.2 or newer
@@ -49,12 +48,18 @@ Authentication steps are required when we first connect our local machine to Git
 ### Generate new SSH key
 On Git Bash/Terminal, we can check for existing SSH keys by `ssh-add -l` or `ssh-add -L`. If we do not have one or want to recreate a SSH key, the following command lines create a new SSH key in our local machine. For more info, refer to [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 ```
+ssh-keygen -t ed25519 -C "your email or file path"
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub
+```
+```
 ssh-keygen -t -rsa -b 4096 -C "your email or file path"
 eval `ssh-agent -s`
-ssh-add
+ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
 ```
-[//]: # (pbcopy/pbpaste on Macs are equivalent to clip/paste commands on Windows.)
+💡 PS: `pbcopy` and `pbpaste` on Macs are equivalent to `clip` (copy) and `powershell -command get-clipboard` (paste) commands on Windows.
 
 ### Add SSH key to GitHub/GitLab
 Next, go to GitHub and GitLab website to register our SSH key.
@@ -122,7 +127,7 @@ git push origin main
 [//]: # (Or better with -u or --set-upstream flag, like git push -u origin main, though we only need to do this once for that association to be recorded in .git/config.)
 
 ## Module 1 challenge
-All three deliverables in Module 1 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["README.md."](./01_kickstarter/README.md)  
+All deliverables in Module 1 challenge are committed in a GitHub repo as outlined below. For detailed report, see ["README.md."](./01_kickstarter/README.md)  
 main branch  
 |&rarr; ./README.md  
 |&rarr; ./01_kickstarter/  
@@ -133,7 +138,7 @@ main branch
     &emsp; |&rarr; ./01_kickstarter/resources/Outcomes_vs_Goals.png  
 
 ## Module 2 challenge
-All three deliverables in Module 2 challenge are committed in this GitHub repo as outlined below. For detailed report, see ["README.md."](https://github.com/ats-tandjoeng7/stock-analysis/blob/main/README.md)  
+All deliverables in Module 2 challenge are committed in a GitHub repo as outlined below. For detailed report, see ["README.md."](https://github.com/ats-tandjoeng7/stock-analysis/blob/main/README.md)  
 main branch  
 |&rarr; ./README.md  
 |&rarr; ./02_wall-street/  
@@ -142,8 +147,7 @@ main branch
   &nbsp; |&rarr; ./02_wall-street/resources/  
     &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2017.png  
     &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2018.png  
-    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2017_BeforeRefactoring.png  
-    &emsp; |&rarr; ./02_wall-street/resources/VBA_Challenge_2018_BeforeRefactoring.png  
+    &emsp; |&rarr; ./02_wall-street/resources/VBA_Runtime_Performance_Analysis.png  
 
 ### MS Excel VBA setup
 Some useful toolbars such as `Debug` and `Edit` toolbars, and setting options available in the Excel VBA Editor may be customized for boosting our productivity in coding VBA (Visual Basic for Applications) programs. Here are a few features that some of us used during Module 2 class work and assignment.
@@ -153,9 +157,6 @@ Some useful toolbars such as `Debug` and `Edit` toolbars, and setting options av
 
 ![Customized VBA Tools' Options](./00_prework/MSVBAEditor_ToolsOptions.png "Fig. 2 Customized VBA Tools' Options")\
 **Fig. 2 Customized VBA Tools' Options**
-
-## Status
-This project is still ongoing and will be updated on weekly basis.
 
 ## Acknowledgment
 - TAs: Austin Sloane, Nick Sneed

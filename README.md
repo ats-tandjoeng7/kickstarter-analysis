@@ -25,7 +25,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 This project also summarizes some of the tools that we have used during UCB Data Analytics Boot Camp, shares basic steps to connect our local git/SSH to GitHub/GitLab, clone/update repositories, and hopefully helps others overcome struggles that some of us have experienced during the process. It listed some best known methods and references, but some may still need a few little tweaks to create a suitable computer environment in certain cases.
 
 ## Software
-Here is a list of some prerequisite software used during UCB Data Analytics Boot Camp. Some cohorts may use additional tools and different settings to make them more effective and efficient.
+Here is a list of some software prerequisites for UCB Data Analytics Boot Camp. Some cohorts may use additional tools and different settings to make them more effective and efficient.
 - MS Excel 2016 version 2206 or newer
 - VS Code version 1.70.2 or newer
 - Anaconda3
@@ -34,7 +34,7 @@ Here is a list of some prerequisite software used during UCB Data Analytics Boot
 - GitLab
 
 ## Installation
-First-time user will be responsible for navigating the official sites of each software source, installing ones that they need to their local machine, and sign up for an account of some popular web tools. Free version for students, open-source contributors, and individuals generally suffices the course requirements. Below are some useful download pages.
+First-time user will be responsible for navigating the official sites of each software source, installing ones that they need to their local machine, and signing up for an account of some popular online collaboration tools. Free version for students, open-source contributors, and individuals generally suffices the course requirements. Below are some useful download pages.
 - [MS Excel 2016](https://www.microsoft.com/en-us/microsoft-365/try)
 - [VS Code](https://visualstudio.microsoft.com/downloads/)
 - [Anaconda3](https://www.anaconda.com/products/distribution)
@@ -98,19 +98,20 @@ git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCB-VIRT-DATA-PT-08-20
 ```
 
 ## Update a repository
-We use `git pull` or `git push` command on Git Bash/Terminal to update a repo, but it is recommended to make a backup of local repo before doing so.\
-If `git status` command gives something like "On branch main .. Your branch is up to date with 'origin/main'. nothing to commit, working tree clean," this usually means it is unnecessary to run `git pull` or `git push` command because there will be nothing to pull to our local repo or push to our remote repo.
+We use `git pull` or `git push` command on Git Bash/Terminal to update a repo, but it is recommended to make a backup of local repo before doing so because such operation may overwrite our ongoing changes.
+
+If `git status` command gives something like "On branch main .. Your branch is up to date with 'origin/main'. nothing to commit, working tree clean," this usually means it is unnecessary to run `git pull` or `git push` command because there will be nothing to pull to our local repo or push to our remote repo. It is also recommended to run `git pull` once in case we make a change on the GitHub website before making and/or pushing any new changes from your local repo.
 
 ### `git pull`
 ```
-cd existing_repo
+cd existing_repo_name
 git status
 git pull
 ```
 
 ### `git push`
 ```
-cd existing_repo
+cd existing_repo_name
 git status
 git remote add origin https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-DATA-PT-08-2022-U-B.git
 git branch -M main
@@ -119,7 +120,7 @@ git push -uf origin main
 
 ### `git push` new or modified file/folder
 ```
-cd existing_repo
+cd existing_repo_name
 git add .
 git commit -m "commit files and folders"
 git push origin main

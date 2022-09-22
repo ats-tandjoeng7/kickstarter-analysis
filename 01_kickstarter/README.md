@@ -45,7 +45,7 @@ The analysis results of Outcomes based on Goals for the plays subcategory is sho
 **Fig. 2 Outcomes Based on Goals**
 
 ### Challenges and Difficulties Encountered
-Downloading prerequisite software and cloning a git repo from GitLab was smooth because we were only required to `git pull` afterward. Here are three main struggles and how I overcame them.
+Downloading software prerequisites and cloning a git repo from GitLab was smooth because we were only required to `git pull` afterward. Here are three main struggles and how I overcame them.
 1. Difficulty authenticating connection between my local machine (Git Bash, VS Code) to remote GitHub repos, so that I can synchronize my local and remote repos. I overcome it by:
 >>💡 `ssh-add` and `ssh-add -l` for making sure an existing SSH key,\
 >>💡 learning best practices from [GitHub Docs](https://docs.github.com/en) and 1-on-1 tutoring,\
@@ -69,8 +69,9 @@ Downloading prerequisite software and cloning a git repo from GitLab was smooth 
   2. Number of projects (either Successful or Failed) saturated after exceeding goals of $25000.
   3. Because number of Canceled outcomes was zero regardless of Goal data, no data analytics and visualization could be performed.
   
-- Some other possible tables and/or graphs that we could create are clustered column graphs, histogram charts, and the corresponding descriptive statistics (see the summary table below). Based on the results, we can conclude that the Goal data are extremely skewed to the right for both Successful and Failed outcomes.  
-**Table I**
+- Some other possible tables and/or graphs that we could create are clustered column graphs, histogram charts, and the corresponding descriptive statistics (see the summary table below). Based on the results, we can conclude that the Goal data are extremely skewed to the right for both Successful and Failed outcomes.
+
+**Table 1. Descriptive Statistics of the Datasets**  
   | Descriptive statistics | Successful outcomes | Failed outcomes |
   | :---                   | :---:               | :---:           |
   | Mean Goal              | $4,101              | $9,827          |

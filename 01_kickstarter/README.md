@@ -45,7 +45,7 @@ The analysis results of Outcomes based on Goals for the plays subcategory is sho
 **Fig. 2 Outcomes Based on Goals**
 
 ### Challenges and Difficulties Encountered
-Downloading prerequisite softwares and cloning a git repo from GitLab was smooth because we were only required to `git pull` afterward. Here are three main struggles and how I overcame them.
+Downloading prerequisite software and cloning a git repo from GitLab was smooth because we were only required to `git pull` afterward. Here are three main struggles and how I overcame them.
 1. Difficulty authenticating connection between my local machine (Git Bash, VS Code) to remote GitHub repos, so that I can synchronize my local and remote repos. I overcome it by:
 >>💡 `ssh-add` and `ssh-add -l` for making sure an existing SSH key,\
 >>💡 learning best practices from [GitHub Docs](https://docs.github.com/en) and 1-on-1 tutoring,\

@@ -4,7 +4,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 ## Table of contents
 [About me](#about-me)
 [] [Lessons learned](#lessons-learned)
-[] [Softwares](#softwares)
+[] [Software](#software)
 [] [Installation](#installation)
 [] [First-time git setup](#first-time-git-setup)
 [] [Create a repository](#create-a-repository)
@@ -18,14 +18,14 @@ This project details what we have done to perform analysis on Kickstarter data t
 ## About me
 - 👋 Hi, there &smile;. My name is Parto Tandjoeng of [Micron Technology, Inc.](https://www.micron.com/).
 - 🌱 I'm interested in knowing more about data analytics, data visualization, and Machine Learning. I’m currently trying my best to learn some popular tools, including collaborative tools, and best known methods that are widely used for data analytics and visualization.
-- 👯 Although I'm still new to data analytics, data visualization and ML, this is the first step to move out of my comfort zone and learn new things everyday from this intensive training and other cohorts. I’m looking forward to collaborating on some class work and assignments with my cohorts, extremely supportive TAs, and knowledgeable tutors.
+- 👯 Although I'm still new to data analytics, data visualization and ML, this is the first step to move out of my comfort zone and learn new things every day from this intensive training and other cohorts. I’m looking forward to collaborating on some class work and assignments with my cohorts, extremely supportive TAs, and knowledgeable tutors.
 - [[More about my personal reflection]](https://github.com/ats-tandjoeng7/kickstarter-analysis/blob/main/00_prework/Data_Analytics_Reflect_Activity.pdf)
 
 ## Lessons learned
-This project also summarizes some of the tools that we have used during UCB Data Analytics Boot Camp, shares basic steps to connect our local git/SSH to GitHub/GitLab, clone/update repositories, and hopefully helps others overcome struggles that some of us have experienced during the process. It listed some best known methods and references, but some may still need a few little tweaks to create a suitable computer enviroment in certain cases.
+This project also summarizes some of the tools that we have used during UCB Data Analytics Boot Camp, shares basic steps to connect our local git/SSH to GitHub/GitLab, clone/update repositories, and hopefully helps others overcome struggles that some of us have experienced during the process. It listed some best known methods and references, but some may still need a few little tweaks to create a suitable computer environment in certain cases.
 
-## Softwares
-Here is a list of some prerequisite softwares used during UCB Data Analytics Boot Camp. Some cohorts may use additional tools and different settings to make them more effective and efficient.
+## Software
+Here is a list of some prerequisite software used during UCB Data Analytics Boot Camp. Some cohorts may use additional tools and different settings to make them more effective and efficient.
 - MS Excel 2016 version 2206 or newer
 - VS Code version 1.70.2 or newer
 - Anaconda3

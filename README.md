@@ -82,7 +82,7 @@ ssh -T git@github.com
 
 ## Create a repository
 Here are some basic steps to create a repository (repo) in our GitHub account.
-- Log on to [GitHub](https://github.com/) account and click the pull down menu next to ➕ at the top-right &rarr; **New repository** &rarr; type in a name under **Repository name** &rarr; type in succinct description about the repo/project under **Description** &rarr; select _Public_ &rarr; ☑️ check **Add a README file** &rarr; click **Create repository**.
+- Log on to [GitHub](https://github.com/) account and click the drop-down menu next to ➕ at the top-right &rarr; **New repository** &rarr; type in a name under **Repository name** &rarr; type in succinct description about the repo/project under **Description** &rarr; select _Public_ &rarr; ☑️ check **Add a README file** &rarr; click **Create repository**.
 
 ## Clone a repository
 Here are some basic steps to clone an existing repo from GitHub/GitLab.

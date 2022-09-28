@@ -16,7 +16,7 @@ This project details what we have done to perform analysis on Kickstarter data t
 [] [References](#references)
 
 ## About me
-- 👋 Hi, there &smile;. My name is Parto Tandjoeng of [Micron Technology, Inc.](https://www.micron.com/).
+- 👋 Hi, there &smile;. My name is Parto Tandjoeng.
 - 🌱 I'm interested in knowing more about data analytics, data visualization, and Machine Learning. I’m currently trying my best to learn some popular tools, including collaborative tools, and best known methods that are widely used for data analytics and visualization.
 - 👯 Although I'm still new to data analytics, data visualization and ML, this is the first step to move out of my comfort zone and learn new things every day from this intensive training and other cohorts. I’m looking forward to collaborating on some class work and assignments with my cohorts, extremely supportive TAs, and knowledgeable tutors.
 - [[More about my personal reflection]](https://github.com/ats-tandjoeng7/kickstarter-analysis/blob/main/00_prework/Data_Analytics_Reflect_Activity.pdf)
